@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_menu_header.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/menu_header.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_profile_placeholder.jpeg.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_profile_placeholder.jpeg"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_logout.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_diningroom_bg.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/diningroom_bg.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_security.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_security.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_kitchen_bg.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/kitchen_bg.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_sensors.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_sensors.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_fans.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_fans.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_networking.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_networking.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_custom_menu_item_layout.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/custom_menu_item_layout.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_overview.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_overview.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_diningroom.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_diningroom.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_cloud_computing.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_cloud_computing.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_about.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_edge_computing.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_edge_computing.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/font_hussar_ekologiczny.ttf.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/font/hussar_ekologiczny.ttf"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/font_leaguespartan_bold.ttf.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/font/leaguespartan_bold.ttf"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_forgotpassword.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_forgotpassword.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_bedroom_bg.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/bedroom_bg.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_insync_logo.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/insync_logo.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_overview.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_overview.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_analytics.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_analytics.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_standards.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_standards.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_hamburger_btn.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_hamburger_btn.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_lightbulb.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_lightbulb.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_data_management.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_data_management.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_splash.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_livingroom_bg.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/livingroom_bg.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_analytics.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_analytics.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_edge_computing.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_edge_computing.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_standards.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_standards.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/anim_pop_up.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/anim/pop_up.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_black_button_border.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/black_button_border.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_login_forgotpw_bg.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/login_forgotpw_bg.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_cloud_computing.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_cloud_computing.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_data_management.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_data_management.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_temp.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_temp.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_livingroom.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_livingroom.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/menu_drawer_menu.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_splash_logo.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/splash_logo.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/anim_fade_out.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_networking.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_networking.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_applications.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_applications.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_kitchen.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_kitchen.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_hamburger_btn_radius.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/hamburger_btn_radius.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_eye_off.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_eye_off.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_signup.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_eye_on.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_eye_on.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/anim_fade_in.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_about.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_about.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/font_leaguespartan_regular.ttf.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/font/leaguespartan_regular.ttf"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_sensors.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_sensors.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_applications.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_applications.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_bedroom.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_bedroom.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_security.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_security.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_speaker.png.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_speaker.png"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.insync_smartcontrolsystem.app-debug-36:/drawable_circle_profile_bg.xml.flat",
+        "source": "com.example.insync_smartcontrolsystem.app-main-38:/drawable/circle_profile_bg.xml"
+    }
+]
