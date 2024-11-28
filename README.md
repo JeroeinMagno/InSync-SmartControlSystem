@@ -101,3 +101,16 @@ Thank you for contributing to the success of **InSync**!
   </tr>
 </table>
 
+<table style="width: 100%; text-align: center; border-collapse: collapse; table-layout: fixed;">
+  <tr>
+    <td style="border: 1px solid #ccc; border-radius: 10px; vertical-align: top; width: 33.33%;">
+      <h3>PROJECT MANAGER</h3>
+      <p><strong>Zedric Edward C. Hernandez</strong></p>
+      <p>Oversees the project and coordinates<br> the development. Works on both frontend and backend tasks to integrate systems and ensure a seamless user experience.</p>
+      <p><strong>Contact:</strong></p>
+      <ul style="list-style: none; padding: 0;">
+        <li>22-00717@g.batstate-u.edu.ph</li>
+        <li>GitHub: <a href="https://github.com/zedricedwardc" target="_blank">zedricedwardc</a></li>
+      </ul>
+    </td>
+
