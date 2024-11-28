@@ -26,6 +26,11 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -37,6 +42,7 @@ public class DashboardActivity extends AppCompatActivity {
 
     private FirebaseAuth auth;
     private FirebaseFirestore firestore;
+    private DatabaseReference databaseRef;
 
     private TextView currentTimeTextView;
 
@@ -73,9 +79,8 @@ public class DashboardActivity extends AppCompatActivity {
             firestore = FirebaseFirestore.getInstance();
             auth = FirebaseAuth.getInstance();
 
-
-
-
+            // Initialize Firebase Realtime Database
+            databaseRef = FirebaseDatabase.getInstance("https://insyncweb-default-rtdb.firebaseio.com/").getReference();
 
             // Hide the action bar if present
             if (getSupportActionBar() != null) {
@@ -88,8 +93,6 @@ public class DashboardActivity extends AppCompatActivity {
                 v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
                 return insets;
             });
-
-
 
             // Initialize DrawerLayout and NavigationView
             drawerLayout = findViewById(R.id.drawer_layout);
@@ -184,7 +187,6 @@ public class DashboardActivity extends AppCompatActivity {
                 return true;
             });
 
-
             // Set up button click listeners for changing room content
             livingRoomButton.setOnClickListener(v -> {
                 selectButton(livingRoomButton);
@@ -222,8 +224,7 @@ public class DashboardActivity extends AppCompatActivity {
             // Update profile name in the navigation drawer
             updateProfileName();
             // Update the current time every second
-            updateCurrentTime();
-
+            updateCurrentTime;
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -294,15 +295,53 @@ public class DashboardActivity extends AppCompatActivity {
         View statusCircle = deviceCard.findViewById(circleId);
         TextView statusText = deviceCard.findViewById(textId);
 
-        // Set an OnClickListener for toggling
-        deviceCard.setOnClickListener(v -> {
-            if ("OFF".contentEquals(statusText.getText())) {
-                statusCircle.setBackgroundTintList(ColorStateList.valueOf(COLOR_ON));
-                statusText.setText("ON");
-            } else {
-                statusCircle.setBackgroundTintList(ColorStateList.valueOf(COLOR_OFF));
-                statusText.setText("OFF");
+        // Determine which device this is
+        String deviceType;
+        if (deviceCard.getId() == R.id.device1_card) {
+            deviceType = "lamp";
+        } else if (deviceCard.getId() == R.id.device2_card) {
+            deviceType = "fan";
+        } else if (deviceCard.getId() == R.id.device3_card) {
+            deviceType = "speaker";
+        } else if (deviceCard.getId() == R.id.device4_card) {
+            deviceType = "thermometer";
+        } else {
+            return;
+        }
+
+        // Set up Firebase listener for this device
+        DatabaseReference deviceRef = databaseRef.child("devices").child(deviceType);
+        deviceRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if (snapshot.exists()) {
+                    int value = snapshot.getValue(Integer.class);
+                    boolean isOn = value == 1;
+                    statusCircle.setBackgroundTintList(ColorStateList.valueOf(isOn ? COLOR_ON : COLOR_OFF));
+                    statusText.setText(isOn ? "ON" : "OFF");
+                }
             }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Log.e("Firebase", "Error reading device state: " + error.getMessage());
+            }
+        });
+
+        // Set click listener for toggling
+        deviceCard.setOnClickListener(v -> {
+            boolean currentlyOn = "ON".contentEquals(statusText.getText());
+            boolean newState = !currentlyOn;
+
+            deviceRef.setValue(newState ? 1 : 0)
+                .addOnSuccessListener(aVoid -> {
+                    Log.d("Firebase", deviceType + " state updated successfully");
+                })
+                .addOnFailureListener(e -> {
+                    Log.e("Firebase", "Error updating " + deviceType + " state", e);
+                    Toast.makeText(DashboardActivity.this,
+                        "Failed to update " + deviceType, Toast.LENGTH_SHORT).show();
+                });
         });
     }
 
@@ -330,8 +369,4 @@ public class DashboardActivity extends AppCompatActivity {
         device3Card.setVisibility(View.GONE);
         device4Card.setVisibility(View.GONE);
     }
-
-
-
 }
-
